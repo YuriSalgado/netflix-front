@@ -11,10 +11,21 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 100;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
 body {
     background: var(--black);
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     color: var(--white);
+}
+
+header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.8) 10%,rgba(0,0,0,0))
 }
 
 header .container {
@@ -22,6 +33,7 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 70px;
 }
 
 header .logo{
