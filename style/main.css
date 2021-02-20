@@ -62,6 +62,10 @@ header nav a:hover {
     margin-bottom: 40px;
 }
 
+.main-movie .container {
+    width: 70%;
+}
+
 .title {
     margin-top: 15%;
     font-size: 40px;
@@ -86,4 +90,9 @@ header nav a:hover {
 
 .button i {
     margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
 }
