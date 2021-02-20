@@ -88,11 +88,17 @@ header nav a:hover {
     color: var(--black);
 }
 
-.button i {
+.button svg {
     margin-right: 8px;
 }
 
 .container {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
